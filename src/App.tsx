@@ -15,47 +15,80 @@ function App() {
   return (
     <>
       <div className="p-5 grid grid-cols-12 gap-5">
-        <div className="col-span-4">
-          <div className="border">
-            <img src={img11} alt="" />
+        <div className="col-span-4 relative">
+          <div>
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img11} alt="product11" />
+            </label>
           </div>
 
           <div className="grid grid-cols-2 gap-5 mt-5">
-            <div className="border">
-              <img src={img4} alt="" />
+            <div className="border rounded-md relative">
+              <label>
+                <input className="absolute top-4 left-4" type="checkbox" />
+                <img className="border rounded-md" src={img4} alt="" />
+              </label>
             </div>
-            <div className="border">
-              <img src={img8} alt="" />
+            <div className="border rounded-md relative">
+              <label>
+                <input className="absolute top-4 left-4" type="checkbox" />
+                <img className="border rounded-md" src={img8} alt="" />
+              </label>
             </div>
           </div>
         </div>
 
         <div className="col-span-8 grid grid-cols-3 gap-5">
-          <div className="border">
-            <img src={img1} alt="img1" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img1} alt="img1" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img2} alt="img2" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img2} alt="img2" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img3} alt="img3" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img3} alt="img3" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img5} alt="img4" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img5} alt="img4" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img6} alt="img5" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img6} alt="img5" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img7} alt="img6" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img7} alt="img6" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img9} alt="img7" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img9} alt="img7" />
+            </label>
           </div>
-          <div className="border">
-            <img src={img10} alt="img8" />
+          <div className="border rounded-md relative">
+            <label>
+              <input className="absolute top-4 left-4" type="checkbox" />
+              <img className="border rounded-md" src={img10} alt="img8" />
+            </label>
           </div>
-          <div className="border">
+          <div className="border rounded-md">
             <input
               className="w-full h-full border"
               type="file"
